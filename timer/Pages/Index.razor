@@ -1,0 +1,46 @@
+﻿@inject Services.BlazorTimer Timer
+@inject Services.BlazorTimer aTimer
+@inject NavigationManager NavManager
+@page "/"
+
+
+<h1>Bonjour</h1>
+
+Cliquez sur le bouton pour décrementer le nombre!
+
+
+<p>nombre: @nombre</p>
+
+
+<button @onclick="StartTimer">Start Timer</button>
+
+
+@code {
+    int nombre = 10;
+    private void StartTimer()
+    {
+        Timer.SetTimer(nombre * 1000);
+        Timer.OnElapsed += TimerElapsedHandler;
+        Console.WriteLine("Timer Started.");
+        aTimer.SetTimer(1000);
+        aTimer.OnElapsed += afficher;
+    }
+
+    private void afficher()
+    {
+        Console.WriteLine("Test : " + nombre);
+        nombre--;
+        this.StateHasChanged();
+        if (nombre == -1)
+        {
+            aTimer.StopTimer();
+        }
+    }
+
+    private void TimerElapsedHandler()
+    {
+        Console.WriteLine("Timer Elapsed.");
+        NavManager.NavigateTo("Counter");
+        Timer.StopTimer();
+    }
+}
