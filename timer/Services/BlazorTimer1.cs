@@ -11,14 +11,18 @@
             _timer = new Timer(interval); // Permet d'initialiser un timer 
             _timer.Elapsed += NotifyTimerElapsed;
             _timer.AutoReset = true;
-            _timer.Enabled = true;      
+            _timer.Enabled = true;
+            /* Paramètre : Intervalle en ms 
+         * Description : Permet d'initialiser un timer 
+         * Retourne rien
+         */
         }
 
-        public event Action OnElapsed; //Permet d'arrêter le Timer
+        public event Action OnElapsed; //Quand l'intervalle rentré en paramètre dans la fonction SetTimer() est terminé déclenche l'event OnElapsed
 
         public void StopTimer()
         {
-            _timer.Stop(); //Quand l'intervalle rentré en paramètre dans la fonction SetTimer() est terminé déclenche l'event OnElapsed  public event Action OnElapsed;
+            _timer.Stop(); //Permet d'arrêter le Timer
 
         }
     private void NotifyTimerElapsed(Object source, ElapsedEventArgs e)

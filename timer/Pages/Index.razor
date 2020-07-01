@@ -16,14 +16,14 @@ Cliquez sur le bouton pour décrementer le nombre!
 
 
 @code {
-    int nombre = 10;
+    int nombre = 10; //On définit le nombre
     private void StartTimer()
     {
         Timer.SetTimer(nombre * 1000);
         Timer.OnElapsed += TimerElapsedHandler;
         Console.WriteLine("Timer Started.");
         aTimer.SetTimer(1000);
-        aTimer.OnElapsed += afficher;
+        aTimer.OnElapsed += afficher; //On lance le timer
     }
 
     private void afficher()
@@ -34,13 +34,13 @@ Cliquez sur le bouton pour décrementer le nombre!
         if (nombre == -1)
         {
             aTimer.StopTimer();
-        }
+        }                                       //On change la valeur du nombre dans le compteur et la console
     }
 
     private void TimerElapsedHandler()
     {
         Console.WriteLine("Timer Elapsed.");
         NavManager.NavigateTo("Counter");
-        Timer.StopTimer();
+        Timer.StopTimer();    //Permet de rediriger sur la page Counter et de stopper le timer
     }
 }
