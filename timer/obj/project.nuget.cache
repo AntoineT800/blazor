@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vwng3a+JX7sBpRzjOqnW2Plzrk1Wc5UokoAixZicndlkwSuV6im+eNs/RWJw/SdEw9kipZ6dDfuT/0ZBfMVdqg==",
+  "dgSpecHash": "+EyxiCFBQW9yykGDutOHY9UEeuR/2p3pHkCqhi1nsQL/LXx0hXCe9le3nUlOa7Jn6azOWD3xIPOnPs0TK4peAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\antoi\\OneDrive\\Bureau\\timer\\timer.csproj",
+  "projectFilePath": "C:\\Users\\antoi\\OneDrive\\Bureau\\alternance2\\blazor\\timer\\timer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antoi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.0-preview2.19528.8\\microsoft.aspnetcore.authorization.3.1.0-preview2.19528.8.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\microsoft.aspnetcore.blazor\\3.1.0-preview2.19528.8\\microsoft.aspnetcore.blazor.3.1.0-preview2.19528.8.nupkg.sha512",

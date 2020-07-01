@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antoi\\OneDrive\\Bureau\\timer\\timer.csproj": {}
+    "C:\\Users\\antoi\\OneDrive\\Bureau\\alternance2\\blazor\\timer\\timer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antoi\\OneDrive\\Bureau\\timer\\timer.csproj": {
+    "C:\\Users\\antoi\\OneDrive\\Bureau\\alternance2\\blazor\\timer\\timer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antoi\\OneDrive\\Bureau\\timer\\timer.csproj",
+        "projectUniqueName": "C:\\Users\\antoi\\OneDrive\\Bureau\\alternance2\\blazor\\timer\\timer.csproj",
         "projectName": "timer",
-        "projectPath": "C:\\Users\\antoi\\OneDrive\\Bureau\\timer\\timer.csproj",
+        "projectPath": "C:\\Users\\antoi\\OneDrive\\Bureau\\alternance2\\blazor\\timer\\timer.csproj",
         "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antoi\\OneDrive\\Bureau\\timer\\obj\\",
+        "outputPath": "C:\\Users\\antoi\\OneDrive\\Bureau\\alternance2\\blazor\\timer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
